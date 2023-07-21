@@ -50,6 +50,61 @@
       <h2>Javascript</h2>
       <ul>
         <li>Enter your Javascript notes here</li>
+        <li>JavaScript (JS) is a high-level dynamic programming language that allows users to interact with websites.It is case sensitive.</li>
+        <li>In web development, JavaScript is the tool that takes a static HTML/CSS webpage and makes it interactive.</li>
+        <li>The reason the script element is near the bottom of the HTML file is so the browser can read code in the order it appears in the file.</li>
+        <li>Variables are containers that store values. You start by declaring a variable with the 'let' keyword, followed by the name you give to the variable. A variable is simply a named container that allows us to store data in our code.</li>
+        <li>A semicolon at the end of a line indicates where a statement ends.</li><br>
+        <li><strong>CONSOLE.LOG:</strong> We can use the console.log method to output a message to the web console by adding an argument.</li>
+        <li>The word 'console' refers to a test environment that developers use to check out their code. The second part, .log(), is a method, which means a set of instructions that can be executed by a computer. The .log() method will output whatever we add inside the parentheses to the console.</li>
+        <li>Control flow is the order in which a computer executes code in a script. In JavaScript, code runs from the first statement at the top of the page, down to the last statement at the bottom of the page. JavaScript is read from top to bottom, and order counts. This means that we must be intentional about how we set up code in a JS file. </li><br>
+
+        <li>In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy.
+        </li>
+        <li>The strict equality operator (===) checks to see if two values are equal, and returns a Boolean result true if the values are equal and false if the values are not equal.</li><br>
+        <li><strong>ARRAYS:</strong> An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.To create an array, we declare a variable in the same way that we declared a variable with only one data item. That is, we use var and then give the variable a name. However, instead of assigning the variable to a single value, we assign the variable to a group of values.<br>
+          E.g: ~ var shapes = ["triangle", "square", "pentagon", "circle"]; ~</li>
+      <li>Arrays are not limited to contain only a single type of data. A single array can store different types of data, such as strings, numbers, and so on.
+      </li>
+      <li>In JavaScript and many other programming languages, arrays are zero-indexed and sequential. This means that the first item in any array has an index of 0, not 1.</li><br>
+      <li><strong>LOOPS:</strong> A for loop uses the predictable pattern of indices to perform a task on all the items in an array by allowing a single code block to be executed over and over.
+      </li>
+      <li>By using a for loop, we can tell the computer to go through each of the shapes in our array and log them to the console until there are no shapes left.</li>
+      <li>In order to use the for loop, we need the shape's index and the array's length. The array length is important because the for loop needs to know how many times the code will run until there are no items left in the array.</li><br>
+      <li>A <strong>for loop</strong> contains the following three important statements:<br>
+
+        The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable <strong>x</strong> and give it a value of <strong>0</strong> (because the first index of an array is always 0) <strong>E.g var x = 0;</strong></li><br>
+        
+        The second statement is the <strong>condition.</strong> As long as the number in the variable x is <strong>less</strong> than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition. E.g x < shapes.length;<br>
+        
+        The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code <strong>x++</strong> is a shortcut way of writing <strong> x+1. </strong> Now every time the code loops, x will increase by 1.<br></li>
+
+      <li>A for loop starts with <strong>"for".</strong></li><br>
+
+        <li>FUNCTIONS:<br>
+          A function is simply a set of instructions that tells the computer how to perform a certain task.
+          </li>
+       <li>A function is different from a for loop or conditional statement because functions do not automatically execute when the JavaScript file (in our case, script.js) is run.<br>
+      Instead, you must call a function by name in order to execute it.</li>
+      <li>A function's name is followed by parentheses (). It is important to include the parentheses whenever you write a function.
+      </li>
+      <li>Notice that the syntax is similar to if statements and for loops. The code to be executed is written inside the curly brackets {}. We want this function to log a string to the console, so we would add the following method to it:<br>
+<br>
+        <strong>function helloWorld() {</strong><br>
+        <strong>console.log("Hello, world, I am a function!")</strong><br>
+        <strong>}</strong><br>
+        </li>
+      <br><li>When we declare a function in our JavaScript code, we are creating a reusable block of code that performs a specific task. However, declaring a function does not mean that the code will automatically execute. We need to call the function in the code at the spot we want it to execute.</li>
+
+
+
+    
+  
+          
+    
+
+      
+      
       </ul>
       </section>
     </main>
@@ -57,5 +112,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
