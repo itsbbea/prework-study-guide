@@ -1,6 +1,5 @@
-## Pre-work Study Guide Webpage
+Pre-work Study Guide Webpage
 
-Description
 A study guide for course pre-work.
 
 As a bootcamp student, I wanted to create a website that's easy to navigate, where fellow bootcamp students can review what we've learnt so far during pre-work, all in one webpage.
